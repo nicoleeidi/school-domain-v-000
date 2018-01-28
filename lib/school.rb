@@ -22,7 +22,7 @@ class School
 
   def sort
     return @roster.keys.each do |key|
-      @roster.key.sort
+      @roster[key].sort
       binding.pry
     end
   end
