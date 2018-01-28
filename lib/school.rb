@@ -1,5 +1,5 @@
 # code here!
-require 'pry'
+
 class School
     attr_accessor :name, :roster
 
@@ -23,7 +23,7 @@ class School
   def sort
     return @roster.keys.each do |key|
       @roster[key].sort
-      binding.pry
+      
     end
   end
 end
